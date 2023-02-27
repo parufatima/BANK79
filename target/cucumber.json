@@ -1,0 +1,340 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Verify Login  functionality with valid id and password",
+        "description": "",
+        "id": "this-is-a-bank79-login-feature.;verify-login--functionality-with-valid-id-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3051108400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Lunch the application \u003c\"URL\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 24
+                }
+              ],
+              "location": "LoginPageStep.lunch_the_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2082984900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter valid user id",
+            "match": {
+              "location": "LoginPageStep.enter_valid_user_id()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 244026700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter valid password",
+            "match": {
+              "location": "LoginPageStep.enter_valid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 734717800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on login",
+            "match": {
+              "location": "LoginPageStep.click_on_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 747445900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify the title of homepage.",
+            "match": {
+              "location": "LoginPageStep.verify_the_title_of_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Verify Login  functionality with Invalid id and valid password",
+        "description": "",
+        "id": "this-is-a-bank79-login-feature.;verify-login--functionality-with-invalid-id-and-valid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1697342700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Lunch the application \u003c\"URL\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 24
+                }
+              ],
+              "location": "LoginPageStep.lunch_the_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 141254500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Enter Invalid user id",
+            "match": {
+              "location": "LoginPageStep.enter_Invalid_user_id()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 143209000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Enter valid password",
+            "match": {
+              "location": "LoginPageStep.enter_valid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 360578800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click on login",
+            "match": {
+              "location": "LoginPageStep.click_on_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3026080600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Verify user can not login successfully",
+            "match": {
+              "location": "LoginPageStep.verify_user_can_not_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Verify Login  functionality with valid id and Invalid password",
+        "description": "",
+        "id": "this-is-a-bank79-login-feature.;verify-login--functionality-with-valid-id-and-invalid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5245914100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Lunch the application \u003c\"URL\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 24
+                }
+              ],
+              "location": "LoginPageStep.lunch_the_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 135525200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Enter valid user id",
+            "match": {
+              "location": "LoginPageStep.enter_valid_user_id()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 140885100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Enter Invalid password",
+            "match": {
+              "location": "LoginPageStep.enter_Invalid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 680883600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Click on login",
+            "match": {
+              "location": "LoginPageStep.click_on_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3013632800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Verify user can not login successfully",
+            "match": {
+              "location": "LoginPageStep.verify_user_can_not_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 20,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Verify Login  functionality with Invalid id and Invalid password",
+        "description": "",
+        "id": "this-is-a-bank79-login-feature.;verify-login--functionality-with-invalid-id-and-invalid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2553881500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Lunch the application \u003c\"URL\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 24
+                }
+              ],
+              "location": "LoginPageStep.lunch_the_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 123795400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Enter Invalid user id",
+            "match": {
+              "location": "LoginPageStep.enter_Invalid_user_id()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 126374600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Enter Invalid password",
+            "match": {
+              "location": "LoginPageStep.enter_Invalid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 396109000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Click on login",
+            "match": {
+              "location": "LoginPageStep.click_on_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3044256900,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Verify user can not login successfully",
+            "match": {
+              "location": "LoginPageStep.verify_user_can_not_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 28,
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "This is a Bank79 Login feature.",
+    "description": "",
+    "id": "this-is-a-bank79-login-feature.",
+    "keyword": "Feature",
+    "uri": "LoginPageBank.feature"
+  }
+]
